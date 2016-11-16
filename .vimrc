@@ -28,14 +28,14 @@ set nowritebackup
 " set textwidth=78
 
 " set tab as 4 space
-" set expandtab
-" set shiftwidth=4
+set expandtab
+set shiftwidth=4
 " set softtabstop=4
 
 set autoindent
-set noexpandtab
+" set noexpandtab
 set tabstop=4
-set shiftwidth=4
+" set shiftwidth=4
 
 set bs=2		" allow backspacing over everything in insert mode
 set ai			" always set autoindenting on
@@ -57,7 +57,7 @@ if version >= 600
    " set encoding=utf-8
     " set fileencoding=big5
     " set termencoding=big5
-    set encoding=big5 
+    set encoding=big5
     set fileencoding=big5
     set termencoding=big5
     set fileencodings=big5,utf-8,euc-jp,gbk,euc-kr,utf-bom,iso8859-1
